@@ -26,10 +26,37 @@ Each skill lives in its own directory as `SKILL.md`. Skills are automatically lo
 Fetch the skills you need directly from GitHub into your project's `.claude/skills/` directory:
 
 ```bash
-# From your project root (repeat for each library you need)
-mkdir -p .claude/skills/zarr
-curl -o .claude/skills/zarr/SKILL.md \
-  https://raw.githubusercontent.com/ianhi/scientific-python-skills/main/skills/zarr/SKILL.md
+mkdir -p .claude/skills/zarr \
+  && curl -o .claude/skills/zarr/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/zarr/SKILL.md
+
+mkdir -p .claude/skills/xarray \
+  && curl -o .claude/skills/xarray/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/xarray/SKILL.md
+
+mkdir -p .claude/skills/icechunk \
+  && curl -o .claude/skills/icechunk/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/icechunk/SKILL.md
+
+mkdir -p .claude/skills/numpy \
+  && curl -o .claude/skills/numpy/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/numpy/SKILL.md
+
+mkdir -p .claude/skills/pandas \
+  && curl -o .claude/skills/pandas/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/pandas/SKILL.md
+
+mkdir -p .claude/skills/matplotlib \
+  && curl -o .claude/skills/matplotlib/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/matplotlib/SKILL.md
+
+mkdir -p .claude/skills/coiled \
+  && curl -o .claude/skills/coiled/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/coiled/SKILL.md
+
+mkdir -p .claude/skills/dask_distributed \
+  && curl -o .claude/skills/dask_distributed/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/dask_distributed/SKILL.md
 ```
 
 Skills placed in `.claude/skills/` are automatically discovered by Claude Code. Commit them to version control so your whole team benefits.
@@ -37,14 +64,37 @@ Skills placed in `.claude/skills/` are automatically discovered by Claude Code. 
 ### Option 2: Add Globally (All Projects)
 
 ```bash
-mkdir -p ~/.claude/skills/zarr ~/.claude/skills/xarray ~/.claude/skills/icechunk
+mkdir -p ~/.claude/skills/zarr \
+  && curl -o ~/.claude/skills/zarr/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/zarr/SKILL.md
 
-curl -o ~/.claude/skills/zarr/SKILL.md \
-  https://raw.githubusercontent.com/ianhi/scientific-python-skills/main/skills/zarr/SKILL.md
-curl -o ~/.claude/skills/xarray/SKILL.md \
-  https://raw.githubusercontent.com/ianhi/scientific-python-skills/main/skills/xarray/SKILL.md
-curl -o ~/.claude/skills/icechunk/SKILL.md \
-  https://raw.githubusercontent.com/ianhi/scientific-python-skills/main/skills/icechunk/SKILL.md
+mkdir -p ~/.claude/skills/xarray \
+  && curl -o ~/.claude/skills/xarray/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/xarray/SKILL.md
+
+mkdir -p ~/.claude/skills/icechunk \
+  && curl -o ~/.claude/skills/icechunk/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/icechunk/SKILL.md
+
+mkdir -p ~/.claude/skills/numpy \
+  && curl -o ~/.claude/skills/numpy/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/numpy/SKILL.md
+
+mkdir -p ~/.claude/skills/pandas \
+  && curl -o ~/.claude/skills/pandas/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/pandas/SKILL.md
+
+mkdir -p ~/.claude/skills/matplotlib \
+  && curl -o ~/.claude/skills/matplotlib/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/matplotlib/SKILL.md
+
+mkdir -p ~/.claude/skills/coiled \
+  && curl -o ~/.claude/skills/coiled/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/coiled/SKILL.md
+
+mkdir -p ~/.claude/skills/dask_distributed \
+  && curl -o ~/.claude/skills/dask_distributed/SKILL.md \
+    https://raw.githubusercontent.com/aaronspring/scientific-python-skills/main/skills/dask_distributed/SKILL.md
 ```
 
 ### Option 3: Reference via CLAUDE.md / AGENTS.md
