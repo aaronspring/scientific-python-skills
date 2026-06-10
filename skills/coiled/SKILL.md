@@ -86,7 +86,7 @@ if it persists for a real package, it's genuinely missing from the index for lin
 A locally-installed package with an unparseable/odd version (e.g. `nwis==0.0.*`) gets dropped, and
 the *cluster never phones home* — failure shows up only in cloud-init system logs. Check what's
 actually in your env with `pip list`, remove/fix the offending package, and inspect full logs
-(`coiled cluster better-logs`), not just Dask logs.
+(`coiled cluster better-logs-cli`), not just Dask logs.
 
 ### `coiled login` fails with SSLCertVerificationError (#263)
 Not Coiled-specific — your local Python's SSL trust store is broken (`aiohttp` HTTPS fails too).
@@ -128,7 +128,7 @@ or split work into smaller chunks rather than fighting the limit.
 2. **Centralized logs** (reliable even if a VM is dead — `get_logs()` cannot fetch from dead instances):
    ```bash
    coiled cluster logs --cluster <id> --filter "starting"   # Dask logs, supports --since
-   coiled cluster better-logs                                # full system + cloud-init logs
+   coiled cluster better-logs-cli                            # full system + cloud-init logs
    ```
 3. **Logging from a script** (workflow/orchestration runs):
    ```python
