@@ -14,6 +14,8 @@ Claude Code [skill files](https://code.claude.com/docs/en/skills) that teach AI 
 | [numpy](skills/numpy/SKILL.md) | 2.x | NEP 50 type promotion, StringDType, copy semantics | ~8KB |
 | [pandas](skills/pandas/SKILL.md) | 3.x | Copy-on-Write, string dtype, changed defaults | ~12KB |
 | [matplotlib](skills/matplotlib/SKILL.md) | 3.x | OO interface, colorbar pitfalls, animation, layout | ~8KB |
+| [coiled](skills/coiled/SKILL.md) | latest | Cloud Dask cluster setup/debugging on AWS/GCP/Azure, package sync, logs | ~8KB |
+| [dask_distributed](skills/dask_distributed/SKILL.md) | 2026.x | Cluster setup, killed workers, memory/spilling, timeouts, nested compute() | ~9KB |
 
 ## How to Use
 
