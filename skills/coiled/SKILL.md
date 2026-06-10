@@ -8,6 +8,8 @@ user-invocable: false
 
 > A Coiled "worker" is a whole VM running ONE Dask worker process — not a thread/process slice like `LocalCluster`. Most setup confusion comes from this. Software is replicated from your *local* environment by default (package sync), so client-side env problems become cluster-side failures.
 
+> Coiled provisions the VMs; the cluster you get is a normal Dask `distributed` cluster. For the underlying scheduler/Client behavior — killed workers, memory thresholds/spilling, connection timeouts, serialization/version mismatches, and the nested-`compute()` deadlock — see the **dask_distributed** skill.
+
 ## CRITICAL: One worker = one VM (sizing & parallelism)
 
 ```python
@@ -158,3 +160,5 @@ or split work into smaller chunks rather than fighting the limit.
 - Package sync replicates the local env: an unhealthy local env (broken SSL, weird package versions, missing dask) breaks the cluster.
 
 Docs: https://docs.coiled.io/user_guide/index.html · [API](https://docs.coiled.io/user_guide/api.html) · [Logging](https://docs.coiled.io/user_guide/logging.html) · [SSH](https://docs.coiled.io/user_guide/ssh.html)
+
+Underlying Dask cluster behavior (memory, killed workers, timeouts): see the **dask_distributed** skill.

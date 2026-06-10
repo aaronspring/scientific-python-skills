@@ -1,0 +1,1132 @@
+{
+  "other": {
+    "count": 83,
+    "total_score": 5220,
+    "items": [
+      {
+        "number": 1260,
+        "title": "Example PBS Script",
+        "score": 260,
+        "comments": 127,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 866,
+        "title": "Add SSL Support ",
+        "score": 158,
+        "comments": 79,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 1674,
+        "title": "\"Stream is closed\"",
+        "score": 149,
+        "comments": 37,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 614,
+        "title": "Efficient Pandas serialization",
+        "score": 108,
+        "comments": 48,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 1278,
+        "title": "1258: Added option to specify different listen and contact IPs for workers",
+        "score": 92,
+        "comments": 46,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 810,
+        "title": "IO layer refactor",
+        "score": 90,
+        "comments": 45,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 5129,
+        "title": "Worker Network Timeseries",
+        "score": 85,
+        "comments": 38,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 6503,
+        "title": "WIP: Shared plasma",
+        "score": 84,
+        "comments": 32,
+        "is_pr": true,
+        "state": "open"
+      },
+      {
+        "number": 776,
+        "title": "Should we use ZeroMQ?",
+        "score": 82,
+        "comments": 35,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 4531,
+        "title": "[REVIEW] Msgpack handles extract serialize",
+        "score": 78,
+        "comments": 36,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 598,
+        "title": "Add AppVeyor configuration",
+        "score": 76,
+        "comments": 38,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 4080,
+        "title": "Timed out trying to connect ... : connect() didn't finish in time",
+        "score": 75,
+        "comments": 36,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 2033,
+        "title": "Capturing and logging stdout/stderr on workers",
+        "score": 75,
+        "comments": 15,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 5046,
+        "title": "Worker state machine refactor",
+        "score": 74,
+        "comments": 37,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 1027,
+        "title": "bokeh apps not running or unreachable",
+        "score": 74,
+        "comments": 37,
+        "is_pr": false,
+        "state": "closed"
+      }
+    ]
+  },
+  "dask-integration": {
+    "count": 47,
+    "total_score": 3174,
+    "items": [
+      {
+        "number": 854,
+        "title": "Accelerate Scheduler with Cython, PyPy, or C",
+        "score": 210,
+        "comments": 105,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 4443,
+        "title": "Profiling Scheduler Performance",
+        "score": 174,
+        "comments": 87,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 3691,
+        "title": "Scaling distributed dask to run 27,648 dask workers on the Summit supercomputer",
+        "score": 158,
+        "comments": 61,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 2597,
+        "title": "\"distributed.protocol.core - CRITICAL - Failed to Serialize\" with PyArrow 0.13",
+        "score": 124,
+        "comments": 56,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 2581,
+        "title": "Using dask with PyTorch (train a model)",
+        "score": 99,
+        "comments": 48,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3898,
+        "title": "Scheduler memory leak / large worker footprint on simple workload",
+        "score": 97,
+        "comments": 41,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4645,
+        "title": "Distributed 2021.3.1 `distributed.protocol.serialize.pickle_loads` fails with `IndexError: tuple index out of range`",
+        "score": 92,
+        "comments": 43,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3139,
+        "title": "Rust implementation of dask-scheduler",
+        "score": 91,
+        "comments": 32,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 3532,
+        "title": "'distributed.protocol.core - CRITICAL - Failed to deserialize' -- With Cupy ",
+        "score": 76,
+        "comments": 38,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 962,
+        "title": "Installing dask and distributed packages can be confusing",
+        "score": 69,
+        "comments": 29,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3791,
+        "title": "Cannot call compute()  on a dask dataframe when inside a task",
+        "score": 68,
+        "comments": 34,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3157,
+        "title": "Hang on dask.array Program with 2 Nodes",
+        "score": 68,
+        "comments": 34,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 320,
+        "title": "Dask-mesos tool",
+        "score": 68,
+        "comments": 34,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 294,
+        "title": "Make scheduler functions robust to forgotten tasks",
+        "score": 66,
+        "comments": 33,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 5574,
+        "title": "dask.distributed client hangs in VSCode",
+        "score": 64,
+        "comments": 26,
+        "is_pr": false,
+        "state": "closed"
+      }
+    ]
+  },
+  "errors/bugs": {
+    "count": 35,
+    "total_score": 2323,
+    "items": [
+      {
+        "number": 6013,
+        "title": "ImportError: cannot import name '_unicodefun' from 'click'",
+        "score": 156,
+        "comments": 0,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 2597,
+        "title": "\"distributed.protocol.core - CRITICAL - Failed to Serialize\" with PyArrow 0.13",
+        "score": 124,
+        "comments": 56,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 1825,
+        "title": "Worker failed to start",
+        "score": 108,
+        "comments": 54,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4645,
+        "title": "Distributed 2021.3.1 `distributed.protocol.serialize.pickle_loads` fails with `IndexError: tuple index out of range`",
+        "score": 92,
+        "comments": 43,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 4612,
+        "title": "Getting `concurrent.futures._base.CancelledError` from simple binary tree built from futures",
+        "score": 89,
+        "comments": 24,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 3761,
+        "title": "Tasks are not stolen if worker runs out of memory",
+        "score": 84,
+        "comments": 36,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4239,
+        "title": "comm: close comm on low-level errors",
+        "score": 83,
+        "comments": 40,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 4314,
+        "title": "KeyError: 'lengths'",
+        "score": 80,
+        "comments": 40,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 1059,
+        "title": "ERROR - unpack requires a bytes object of length 8",
+        "score": 80,
+        "comments": 40,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 1978,
+        "title": "Tackle \"ValueError: buffer source array is read-only\"",
+        "score": 77,
+        "comments": 28,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3532,
+        "title": "'distributed.protocol.core - CRITICAL - Failed to deserialize' -- With Cupy ",
+        "score": 76,
+        "comments": 38,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 966,
+        "title": "Intermittent testing failures",
+        "score": 74,
+        "comments": 37,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 5960,
+        "title": "Possible memory leak when using LocalCluster",
+        "score": 66,
+        "comments": 33,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4360,
+        "title": "Deadlocks and infinite loops connected to failed dependencies",
+        "score": 64,
+        "comments": 32,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 5879,
+        "title": "Dask: Stalling Tasks?",
+        "score": 63,
+        "comments": 30,
+        "is_pr": false,
+        "state": "open"
+      }
+    ]
+  },
+  "performance": {
+    "count": 26,
+    "total_score": 2005,
+    "items": [
+      {
+        "number": 2602,
+        "title": "an example that shows the need for memory backpressure",
+        "score": 295,
+        "comments": 109,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 4443,
+        "title": "Profiling Scheduler Performance",
+        "score": 174,
+        "comments": 87,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 6110,
+        "title": "Computation deadlocks due to worker rapidly running out of memory instead of spilling",
+        "score": 128,
+        "comments": 64,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 1467,
+        "title": "Workers stuck, increased memory usage while processing large CSV from S3.",
+        "score": 100,
+        "comments": 32,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3898,
+        "title": "Scheduler memory leak / large worker footprint on simple workload",
+        "score": 97,
+        "comments": 41,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4424,
+        "title": "Asynchronous Disk Access in Workers",
+        "score": 84,
+        "comments": 42,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 3761,
+        "title": "Tasks are not stolen if worker runs out of memory",
+        "score": 84,
+        "comments": 36,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 2757,
+        "title": "Worker memory not being freed when tasks complete",
+        "score": 82,
+        "comments": 26,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 5960,
+        "title": "Possible memory leak when using LocalCluster",
+        "score": 66,
+        "comments": 33,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4497,
+        "title": "RFC: explicit shared memory",
+        "score": 66,
+        "comments": 24,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 5111,
+        "title": "Active Memory Manager framework + discard excess replicas",
+        "score": 62,
+        "comments": 28,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 2835,
+        "title": "Dask really slow towards the end of the job",
+        "score": 59,
+        "comments": 24,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 2068,
+        "title": "memory leak when using distributed.Client with delayed",
+        "score": 58,
+        "comments": 26,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 2801,
+        "title": "excessive CPU time spent on gc (even after manually adjusting gc thresholds)",
+        "score": 57,
+        "comments": 23,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 2970,
+        "title": "With Facebook's  Zstandard - Fast real-time compression algorithm",
+        "score": 54,
+        "comments": 27,
+        "is_pr": true,
+        "state": "closed"
+      }
+    ]
+  },
+  "concurrency/async": {
+    "count": 28,
+    "total_score": 2004,
+    "items": [
+      {
+        "number": 1029,
+        "title": "Asyncio API",
+        "score": 178,
+        "comments": 89,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 3691,
+        "title": "Scaling distributed dask to run 27,648 dask workers on the Summit supercomputer",
+        "score": 158,
+        "comments": 61,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 6110,
+        "title": "Computation deadlocks due to worker rapidly running out of memory instead of spilling",
+        "score": 128,
+        "comments": 64,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 2581,
+        "title": "Using dask with PyTorch (train a model)",
+        "score": 99,
+        "comments": 48,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3139,
+        "title": "Rust implementation of dask-scheduler",
+        "score": 91,
+        "comments": 32,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4612,
+        "title": "Getting `concurrent.futures._base.CancelledError` from simple binary tree built from futures",
+        "score": 89,
+        "comments": 24,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4424,
+        "title": "Asynchronous Disk Access in Workers",
+        "score": 84,
+        "comments": 42,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 962,
+        "title": "Installing dask and distributed packages can be confusing",
+        "score": 69,
+        "comments": 29,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3791,
+        "title": "Cannot call compute()  on a dask dataframe when inside a task",
+        "score": 68,
+        "comments": 34,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3157,
+        "title": "Hang on dask.array Program with 2 Nodes",
+        "score": 68,
+        "comments": 34,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 320,
+        "title": "Dask-mesos tool",
+        "score": 68,
+        "comments": 34,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 5450,
+        "title": "Use asyncio for TCP/TLS comms",
+        "score": 64,
+        "comments": 26,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 4360,
+        "title": "Deadlocks and infinite loops connected to failed dependencies",
+        "score": 64,
+        "comments": 32,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 5574,
+        "title": "dask.distributed client hangs in VSCode",
+        "score": 64,
+        "comments": 26,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3141,
+        "title": "Enhancement Request - Dask Workers lifetime option not waiting for job to finish",
+        "score": 64,
+        "comments": 16,
+        "is_pr": false,
+        "state": "open"
+      }
+    ]
+  },
+  "io/serialization": {
+    "count": 10,
+    "total_score": 602,
+    "items": [
+      {
+        "number": 3898,
+        "title": "Scheduler memory leak / large worker footprint on simple workload",
+        "score": 97,
+        "comments": 41,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4645,
+        "title": "Distributed 2021.3.1 `distributed.protocol.serialize.pickle_loads` fails with `IndexError: tuple index out of range`",
+        "score": 92,
+        "comments": 43,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 1978,
+        "title": "Tackle \"ValueError: buffer source array is read-only\"",
+        "score": 77,
+        "comments": 28,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 1869,
+        "title": "restart time out and upload_file crash",
+        "score": 62,
+        "comments": 31,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 1634,
+        "title": "Add pass-through arguments for scheduler/worker `--preload` modules.",
+        "score": 48,
+        "comments": 24,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 4361,
+        "title": "Add upload_dir function #925",
+        "score": 47,
+        "comments": 21,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 2210,
+        "title": "bag  read_lines - all the processing happens on one node",
+        "score": 46,
+        "comments": 23,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 1920,
+        "title": "Difficulty to load Bokeh UI with no internet access",
+        "score": 46,
+        "comments": 23,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3171,
+        "title": "Frame offload calls gc.collect()",
+        "score": 45,
+        "comments": 21,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 6557,
+        "title": "Limit TCP `write`s w/Tornado to 2GB",
+        "score": 42,
+        "comments": 21,
+        "is_pr": true,
+        "state": "closed"
+      }
+    ]
+  },
+  "arrays/chunks": {
+    "count": 9,
+    "total_score": 550,
+    "items": [
+      {
+        "number": 629,
+        "title": "Challenges running xarray wrapped netcdf files",
+        "score": 96,
+        "comments": 48,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 1978,
+        "title": "Tackle \"ValueError: buffer source array is read-only\"",
+        "score": 77,
+        "comments": 28,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 3157,
+        "title": "Hang on dask.array Program with 2 Nodes",
+        "score": 68,
+        "comments": 34,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 8282,
+        "title": "Zero-copy array shuffle",
+        "score": 66,
+        "comments": 33,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 5083,
+        "title": "Locks and chunked storage",
+        "score": 58,
+        "comments": 29,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 8330,
+        "title": "Partial rechunks within P2P",
+        "score": 50,
+        "comments": 25,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 1179,
+        "title": "Series.values.compute() leads to \"TypeError: can't concat buffer to bytearray\"",
+        "score": 46,
+        "comments": 23,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 7599,
+        "title": "KeyError when running P2P rechunking",
+        "score": 45,
+        "comments": 20,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 155,
+        "title": "WIP: S3 chunks",
+        "score": 44,
+        "comments": 22,
+        "is_pr": true,
+        "state": "closed"
+      }
+    ]
+  },
+  "indexing/selection": {
+    "count": 8,
+    "total_score": 536,
+    "items": [
+      {
+        "number": 6110,
+        "title": "Computation deadlocks due to worker rapidly running out of memory instead of spilling",
+        "score": 128,
+        "comments": 64,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 4003,
+        "title": "Run local code remotely on a worker",
+        "score": 70,
+        "comments": 35,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 5960,
+        "title": "Possible memory leak when using LocalCluster",
+        "score": 66,
+        "comments": 33,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4360,
+        "title": "Deadlocks and infinite loops connected to failed dependencies",
+        "score": 64,
+        "comments": 32,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 5083,
+        "title": "Locks and chunked storage",
+        "score": 58,
+        "comments": 29,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 4503,
+        "title": "Multi-lock extension",
+        "score": 54,
+        "comments": 24,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 6223,
+        "title": "Worker stuck in closing_gracefully state",
+        "score": 50,
+        "comments": 25,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 5366,
+        "title": "Deadlock - task not running",
+        "score": 46,
+        "comments": 23,
+        "is_pr": false,
+        "state": "open"
+      }
+    ]
+  },
+  "codecs/compression": {
+    "count": 7,
+    "total_score": 421,
+    "items": [
+      {
+        "number": 932,
+        "title": "Bandwidth during dataframe shuffles is low",
+        "score": 84,
+        "comments": 42,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 8282,
+        "title": "Zero-copy array shuffle",
+        "score": 66,
+        "comments": 33,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 7507,
+        "title": "Efficient scalable shuffle - P2P shuffle extension",
+        "score": 66,
+        "comments": 33,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4019,
+        "title": "Add compression, pickle protocol to comm contexts",
+        "score": 56,
+        "comments": 28,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 2970,
+        "title": "With Facebook's  Zstandard - Fast real-time compression algorithm",
+        "score": 54,
+        "comments": 27,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 8426,
+        "title": "Data loss during p2p shuffle",
+        "score": 52,
+        "comments": 22,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 7496,
+        "title": "P2P shuffling and queuing combined may cause high memory usage with `dask.dataframe.merge`",
+        "score": 43,
+        "comments": 20,
+        "is_pr": false,
+        "state": "closed"
+      }
+    ]
+  },
+  "storage/stores": {
+    "count": 6,
+    "total_score": 382,
+    "items": [
+      {
+        "number": 1467,
+        "title": "Workers stuck, increased memory usage while processing large CSV from S3.",
+        "score": 100,
+        "comments": 32,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 4003,
+        "title": "Run local code remotely on a worker",
+        "score": 70,
+        "comments": 35,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 5960,
+        "title": "Possible memory leak when using LocalCluster",
+        "score": 66,
+        "comments": 33,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 5083,
+        "title": "Locks and chunked storage",
+        "score": 58,
+        "comments": 29,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 155,
+        "title": "WIP: S3 chunks",
+        "score": 44,
+        "comments": 22,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 167,
+        "title": "Add back S3 avro functions, with tests",
+        "score": 44,
+        "comments": 22,
+        "is_pr": true,
+        "state": "closed"
+      }
+    ]
+  },
+  "groups/hierarchy": {
+    "count": 4,
+    "total_score": 370,
+    "items": [
+      {
+        "number": 4886,
+        "title": "Task Group Graph Visualization",
+        "score": 188,
+        "comments": 94,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 4612,
+        "title": "Getting `concurrent.futures._base.CancelledError` from simple binary tree built from futures",
+        "score": 89,
+        "comments": 24,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4765,
+        "title": "Clean path prefix from filename in profile",
+        "score": 47,
+        "comments": 21,
+        "is_pr": true,
+        "state": "open"
+      },
+      {
+        "number": 3732,
+        "title": "Consolidate messages in UCX",
+        "score": 46,
+        "comments": 19,
+        "is_pr": true,
+        "state": "closed"
+      }
+    ]
+  },
+  "visualization": {
+    "count": 4,
+    "total_score": 203,
+    "items": [
+      {
+        "number": 3318,
+        "title": "New dashboard plot discussion",
+        "score": 57,
+        "comments": 12,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 926,
+        "title": "Widget progress bar missing in Notebook",
+        "score": 54,
+        "comments": 27,
+        "is_pr": false,
+        "state": "open"
+      },
+      {
+        "number": 4161,
+        "title": "Task stream does not render in get_task_stream or performance_report HTML reports",
+        "score": 50,
+        "comments": 25,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 5181,
+        "title": "Add HTML Repr for `ProcessInterface` Class and all its subclasses",
+        "score": 42,
+        "comments": 21,
+        "is_pr": true,
+        "state": "closed"
+      }
+    ]
+  },
+  "xarray-integration": {
+    "count": 2,
+    "total_score": 198,
+    "items": [
+      {
+        "number": 2336,
+        "title": "Unable to use published datasets in a different client",
+        "score": 102,
+        "comments": 51,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 629,
+        "title": "Challenges running xarray wrapped netcdf files",
+        "score": 96,
+        "comments": 48,
+        "is_pr": false,
+        "state": "closed"
+      }
+    ]
+  },
+  "compatibility/migration": {
+    "count": 4,
+    "total_score": 184,
+    "items": [
+      {
+        "number": 4168,
+        "title": "Python 3.9 compatibility",
+        "score": 57,
+        "comments": 24,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 6669,
+        "title": "Tornado 6.2 compatibility",
+        "score": 43,
+        "comments": 5,
+        "is_pr": false,
+        "state": "closed"
+      },
+      {
+        "number": 6062,
+        "title": "Migrate ensure_computing transitions to new WorkerState event mechanism - part 2",
+        "score": 42,
+        "comments": 21,
+        "is_pr": true,
+        "state": "closed"
+      },
+      {
+        "number": 5641,
+        "title": "Deprecate `--nprocs` option for `dask-worker` CLI",
+        "score": 42,
+        "comments": 21,
+        "is_pr": true,
+        "state": "closed"
+      }
+    ]
+  },
+  "netcdf/io": {
+    "count": 1,
+    "total_score": 96,
+    "items": [
+      {
+        "number": 629,
+        "title": "Challenges running xarray wrapped netcdf files",
+        "score": 96,
+        "comments": 48,
+        "is_pr": false,
+        "state": "closed"
+      }
+    ]
+  }
+}
